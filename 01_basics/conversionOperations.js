@@ -19,7 +19,17 @@ console.log(valueInNumber);
  let stringNumber = String(someNumber)
  console.log(typeof stringNumber);
  
- 
+  console.log("1"+ 2 + 2);
+  console.log(1 + 2 + "2");
+  console.log(+true);
+  console.log(+"");
+  
+  console.log("2" == 2); //true
+  console.log("2" === 2); //false as stricly operator checks data type also.
+  
+  
+  
+  
 
 
 
