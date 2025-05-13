@@ -72,6 +72,37 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
+const person = {
+  name: ["Bob", "Smith"],
+  age: 32,
+  bio: function () {
+    console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+  },
+  introduceSelf: function () {
+    console.log(`Hi! I'm ${this.name[0]}.`);
+  },
+};
+
+const band = {
+  name: "Coldplay",
+  nationality: "British",
+  genre: "Alternative Rock",
+  members: 4,
+  formed: 1996,
+  split: false,
+  albums: [
+    {
+      name: "Parachutes",
+      released: 2000
+    },
+    {
+      name: "A Rush of Blood to the Head",
+      released: 2002
+    }
+  ]
+};
+
+const bandInfo = `Coldplay is a British alternative rock band formed in 1996. They are known for their melodic sound and emotional lyrics. The band is still active today. Their first album, "Parachutes," was released in 2000.`;
 
 
 
