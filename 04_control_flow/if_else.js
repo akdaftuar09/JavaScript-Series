@@ -50,3 +50,21 @@ if (userLoggedIn && debitCard && 2==3) {
 if (loggedInFromGoogle || loggedInFromEmail) {
     console.log("User logged in");
 }
+
+let machineActive = true;
+let pwd = 'cheese';
+
+let machineResult;
+let pwdResult;
+
+if(machineActive){
+    machineResult = "Machine is ON!"
+        if(pwd == "cheese"){
+            pwdResult = "User Logged in Successfully"
+        }else{
+            pwdResult = "Login attempt was not successful"
+        }
+}else{
+    machineResult = "Machine is OFF!, Turn it ON!"
+}
+
